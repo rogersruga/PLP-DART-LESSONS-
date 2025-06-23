@@ -2,7 +2,7 @@ import 'dart:io';
 
 void main(){
   print("====ENTER STUDENT DETAILS====");
-  print("Kindly enter your name:");
+  print("Kindly enter your fullname:");
   String? name = stdin.readLineSync();
   
   print("Kindly enter your registration number:");
