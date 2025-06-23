@@ -15,6 +15,12 @@ void main() {
   print("You are $age years old.");
   print ("$name is $age years old");
 
+  //Floating Point User Input
+
+  print("Enter a decimal number: ");
+  double number = double.parse(stdin.readLineSync()!);
+  print("Your number is $number");
+
 
 }
 
