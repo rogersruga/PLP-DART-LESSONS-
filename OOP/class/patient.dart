@@ -12,7 +12,7 @@ class Patient {
 
   }
 
-
+  //method
   void display(){
     print("Name: ${this.name}");
     print("Age: ${this.age}");
