@@ -5,12 +5,7 @@ class Patient {
   String? disease;
 
   //constructor
-  Patient(String name, int age, String disease){
-    this.name = name;
-    this.age = age;
-    this.disease = disease;
-
-  }
+  Patient(String name, int age, String disease){ this.name; this.age; this.disease; }
 
   //method
   void display(){
